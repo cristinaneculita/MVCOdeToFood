@@ -1,0 +1,27 @@
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate stub for <>f__AnonymousType0`3: type is sealed.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate stub for <>f__AnonymousType1`3: type is sealed.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate stub for <>f__AnonymousType2`1: type is sealed.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate stub for <>f__AnonymousType3`1: type is sealed.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate stub for <>f__AnonymousType4`1: type is sealed.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate stub for OdeToFood.AuthConfig: type is sealed.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate stub for OdeToFood.WebApiConfig: type is sealed.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate stub for OdeToFood.Filters.InitializeSimpleMembershipAttribute: type is sealed.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for <>f__AnonymousType0`3: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for <>f__AnonymousType1`3: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for <>f__AnonymousType2`1: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for <>f__AnonymousType3`1: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for <>f__AnonymousType4`1: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Filters.InitializeSimpleMembershipAttribute+SimpleMembershipInitializer: type is not visible to exported or assembly(OdeToFood.Fakes).
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.AccountController+<>c__DisplayClass10_0: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.AccountController+<>o__0: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.AccountController+<>o__10: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.AccountController+<>o__12: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.AccountController+<>o__13: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.AccountController+<>o__6: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.AccountController+<>o__7: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.AccountController+<>o__9: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.AccountController+ExternalLoginResult: type is not visible to exported or assembly(OdeToFood.Fakes).
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.AccountController+ManageMessageId: type is an enum.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.HomeController+<>o__0: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.HomeController+<>o__2: type is not supported because of internal limitations.
+E:\Training\MVC4\MVC4ScottAllan\OdeToFood.Tests\Fakes\OdeToFood.fakes : warning : Cannot generate shim for OdeToFood.Controllers.ReviewsController+<>c: type is not supported because of internal limitations.

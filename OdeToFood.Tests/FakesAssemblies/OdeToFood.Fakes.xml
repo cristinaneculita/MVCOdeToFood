@@ -1,0 +1,2384 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OdeToFood.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:OdeToFood.Controllers.Fakes.ShimAccountController">
+            <summary>Shim type of OdeToFood.Controllers.AccountController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.#ctor(OdeToFood.Controllers.AccountController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimAccountController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.Constructor">
+            <summary>Sets the shim of AccountController.AccountController()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.DisassociateStringString">
+            <summary>Sets the shim of AccountController.Disassociate(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.ErrorCodeToStringMembershipCreateStatus">
+            <summary>Sets the shim of AccountController.ErrorCodeToString(MembershipCreateStatus createStatus)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.ExternalLoginCallbackString">
+            <summary>Sets the shim of AccountController.ExternalLoginCallback(String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.ExternalLoginConfirmationRegisterExternalLoginModelString">
+            <summary>Sets the shim of AccountController.ExternalLoginConfirmation(RegisterExternalLoginModel model, String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.ExternalLoginFailure">
+            <summary>Sets the shim of AccountController.ExternalLoginFailure()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.ExternalLoginStringString">
+            <summary>Sets the shim of AccountController.ExternalLogin(String provider, String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.ExternalLoginsListString">
+            <summary>Sets the shim of AccountController.ExternalLoginsList(String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.LogOff">
+            <summary>Sets the shim of AccountController.LogOff()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.LoginLoginModelString">
+            <summary>Sets the shim of AccountController.Login(LoginModel model, String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.LoginString">
+            <summary>Sets the shim of AccountController.Login(String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.ManageLocalPasswordModel">
+            <summary>Sets the shim of AccountController.Manage(LocalPasswordModel model)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.ManageNullableOfAccountControllerManageMessageId">
+            <summary>Sets the shim of AccountController.Manage(Nullable`1&lt;ManageMessageId&gt; message)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.RedirectToLocalString">
+            <summary>Sets the shim of AccountController.RedirectToLocal(String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.Register">
+            <summary>Sets the shim of AccountController.Register()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.RegisterRegisterModel">
+            <summary>Sets the shim of AccountController.Register(RegisterModel model)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.RemoveExternalLogins">
+            <summary>Sets the shim of AccountController.RemoveExternalLogins()</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.DisassociateStringString">
+            <summary>Sets the shim of AccountController.Disassociate(String provider, String providerUserId)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.ExternalLoginCallbackString">
+            <summary>Sets the shim of AccountController.ExternalLoginCallback(String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.ExternalLoginConfirmationRegisterExternalLoginModelString">
+            <summary>Sets the shim of AccountController.ExternalLoginConfirmation(RegisterExternalLoginModel model, String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.ExternalLoginFailure">
+            <summary>Sets the shim of AccountController.ExternalLoginFailure()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.ExternalLoginStringString">
+            <summary>Sets the shim of AccountController.ExternalLogin(String provider, String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.ExternalLoginsListString">
+            <summary>Sets the shim of AccountController.ExternalLoginsList(String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.LogOff">
+            <summary>Sets the shim of AccountController.LogOff()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.LoginLoginModelString">
+            <summary>Sets the shim of AccountController.Login(LoginModel model, String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.LoginString">
+            <summary>Sets the shim of AccountController.Login(String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.ManageLocalPasswordModel">
+            <summary>Sets the shim of AccountController.Manage(LocalPasswordModel model)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.ManageNullableOfAccountControllerManageMessageId">
+            <summary>Sets the shim of AccountController.Manage(Nullable`1&lt;ManageMessageId&gt; message)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.RedirectToLocalString">
+            <summary>Sets the shim of AccountController.RedirectToLocal(String returnUrl)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.Register">
+            <summary>Sets the shim of AccountController.Register()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.RegisterRegisterModel">
+            <summary>Sets the shim of AccountController.Register(RegisterModel model)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimAccountController.AllInstances.RemoveExternalLogins">
+            <summary>Sets the shim of AccountController.RemoveExternalLogins()</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.ShimCuisineController">
+            <summary>Shim type of OdeToFood.Controllers.CuisineController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.#ctor(OdeToFood.Controllers.CuisineController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimCuisineController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimCuisineController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimCuisineController.Constructor">
+            <summary>Sets the shim of CuisineController.CuisineController()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimCuisineController.SearchString">
+            <summary>Sets the shim of CuisineController.Search(String name)</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.ShimCuisineController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimCuisineController.AllInstances.SearchString">
+            <summary>Sets the shim of CuisineController.Search(String name)</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.ShimHomeController">
+            <summary>Shim type of OdeToFood.Controllers.HomeController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.#ctor(OdeToFood.Controllers.HomeController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimHomeController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.About">
+            <summary>Sets the shim of HomeController.About()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.Constructor">
+            <summary>Sets the shim of HomeController.HomeController()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.Contact">
+            <summary>Sets the shim of HomeController.Contact()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.Index">
+            <summary>Sets the shim of HomeController.Index()</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances.About">
+            <summary>Sets the shim of HomeController.About()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances.Contact">
+            <summary>Sets the shim of HomeController.Contact()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances.Index">
+            <summary>Sets the shim of HomeController.Index()</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.ShimReviewsController">
+            <summary>Shim type of OdeToFood.Controllers.ReviewsController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.#ctor(OdeToFood.Controllers.ReviewsController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.ShimReviewsController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.Constructor">
+            <summary>Sets the shim of ReviewsController.ReviewsController()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.Index">
+            <summary>Sets the shim of ReviewsController.Index()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.StaticConstructor">
+            <summary>Sets the shim of ReviewsController.ReviewsController()</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances.Index">
+            <summary>Sets the shim of ReviewsController.Index()</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.StubAccountController">
+            <summary>Stub type of OdeToFood.Controllers.AccountController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.ContentStringStringEncoding">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.CreateActionInvoker">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.CreateActionInvoker01">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.CreateTempDataProvider">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.CreateTempDataProvider01">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.DisableAsyncSupportGet">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.Dispose(System.Boolean)">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.DisposeBoolean">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.ExecuteCore">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.ExecuteCore01">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.ExecuteRequestContext">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.FileByteArrayStringString">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.FileStreamStringString">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.FileStringStringString">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.HandleUnknownActionString">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.HttpNotFound(System.String)">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.HttpNotFoundString">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.InitializeRequestContext">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.InitializeStub">
+            <summary>Initializes a new instance of type StubAccountController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.JavaScript(System.String)">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.JavaScriptString">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.Json(System.Object,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.JsonObjectStringEncoding">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.JsonObjectStringEncodingJsonRequestBehavior">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.OnExceptionExceptionContext">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.PartialViewStringObject">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.Redirect(System.String)">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.RedirectPermanentString">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.RedirectString">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubAccountController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.ViewIViewObject">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubAccountController.ViewStringStringObject">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubAccountController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubAccountController.DisableAsyncSupport">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubAccountController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubAccountController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.StubCuisineController">
+            <summary>Stub type of OdeToFood.Controllers.CuisineController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.ContentStringStringEncoding">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.CreateActionInvoker">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.CreateActionInvoker01">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.CreateTempDataProvider">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.CreateTempDataProvider01">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.DisableAsyncSupportGet">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.Dispose(System.Boolean)">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.DisposeBoolean">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.ExecuteCore">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.ExecuteCore01">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.ExecuteRequestContext">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.FileByteArrayStringString">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.FileStreamStringString">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.FileStringStringString">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.HandleUnknownActionString">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.HttpNotFound(System.String)">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.HttpNotFoundString">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.InitializeRequestContext">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.InitializeStub">
+            <summary>Initializes a new instance of type StubCuisineController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.JavaScript(System.String)">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.JavaScriptString">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.Json(System.Object,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.JsonObjectStringEncoding">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.JsonObjectStringEncodingJsonRequestBehavior">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.OnExceptionExceptionContext">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.PartialViewStringObject">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.Redirect(System.String)">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectPermanentString">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectString">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubCuisineController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.ViewIViewObject">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubCuisineController.ViewStringStringObject">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubCuisineController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubCuisineController.DisableAsyncSupport">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubCuisineController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubCuisineController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.StubHomeController">
+            <summary>Stub type of OdeToFood.Controllers.HomeController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.ContentStringStringEncoding">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.CreateActionInvoker">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.CreateActionInvoker01">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.CreateTempDataProvider">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.CreateTempDataProvider01">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.DisableAsyncSupportGet">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.Dispose(System.Boolean)">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.DisposeBoolean">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.ExecuteCore">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.ExecuteCore01">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.ExecuteRequestContext">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.FileByteArrayStringString">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.FileStreamStringString">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.FileStringStringString">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.HandleUnknownActionString">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.HttpNotFound(System.String)">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.HttpNotFoundString">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.InitializeRequestContext">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.InitializeStub">
+            <summary>Initializes a new instance of type StubHomeController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.JavaScript(System.String)">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.JavaScriptString">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.Json(System.Object,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.JsonObjectStringEncoding">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.JsonObjectStringEncodingJsonRequestBehavior">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.OnExceptionExceptionContext">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.PartialViewStringObject">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.Redirect(System.String)">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.RedirectPermanentString">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.RedirectString">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.ViewIViewObject">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.ViewStringStringObject">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubHomeController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubHomeController.DisableAsyncSupport">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubHomeController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubHomeController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Controllers.Fakes.StubReviewsController">
+            <summary>Stub type of OdeToFood.Controllers.ReviewsController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.ContentStringStringEncoding">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.CreateActionInvoker">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.CreateActionInvoker01">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.CreateTempDataProvider">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.CreateTempDataProvider01">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.DisableAsyncSupportGet">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.Dispose(System.Boolean)">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.DisposeBoolean">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.ExecuteCore">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.ExecuteCore01">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.ExecuteRequestContext">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.FileByteArrayStringString">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.FileStreamStringString">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.FileStringStringString">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.HandleUnknownActionString">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.HttpNotFound(System.String)">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.HttpNotFoundString">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.InitializeRequestContext">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.InitializeStub">
+            <summary>Initializes a new instance of type StubReviewsController</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.JavaScript(System.String)">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.JavaScriptString">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.Json(System.Object,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.JsonObjectStringEncoding">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.JsonObjectStringEncodingJsonRequestBehavior">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.OnExceptionExceptionContext">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.PartialViewStringObject">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.Redirect(System.String)">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectPermanentString">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectString">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="M:OdeToFood.Controllers.Fakes.StubReviewsController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.ViewIViewObject">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="F:OdeToFood.Controllers.Fakes.StubReviewsController.ViewStringStringObject">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubReviewsController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubReviewsController.DisableAsyncSupport">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubReviewsController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.StubReviewsController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.ShimAuthConfig">
+            <summary>Shim type of OdeToFood.AuthConfig</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimAuthConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimAuthConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimAuthConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimAuthConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimAuthConfig.RegisterAuth">
+            <summary>Sets the shim of AuthConfig.RegisterAuth()</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.ShimBundleConfig">
+            <summary>Shim type of OdeToFood.BundleConfig</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimBundleConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimBundleConfig.#ctor(OdeToFood.BundleConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimBundleConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimBundleConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimBundleConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimBundleConfig.Constructor">
+            <summary>Sets the shim of BundleConfig.BundleConfig()</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimBundleConfig.RegisterBundlesBundleCollection">
+            <summary>Sets the shim of BundleConfig.RegisterBundles(BundleCollection bundles)</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.ShimBundleConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.ShimFilterConfig">
+            <summary>Shim type of OdeToFood.FilterConfig</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimFilterConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimFilterConfig.#ctor(OdeToFood.FilterConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimFilterConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimFilterConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimFilterConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimFilterConfig.Constructor">
+            <summary>Sets the shim of FilterConfig.FilterConfig()</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimFilterConfig.RegisterGlobalFiltersGlobalFilterCollection">
+            <summary>Sets the shim of FilterConfig.RegisterGlobalFilters(GlobalFilterCollection filters)</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.ShimFilterConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.ShimMvcApplication">
+            <summary>Shim type of OdeToFood.MvcApplication</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimMvcApplication.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimMvcApplication.#ctor(OdeToFood.MvcApplication)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimMvcApplication.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimMvcApplication.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimMvcApplication.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimMvcApplication.Bind(System.Web.IHttpAsyncHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimMvcApplication.Bind(System.Web.IHttpHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimMvcApplication.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimMvcApplication.Application_Start">
+            <summary>Sets the shim of MvcApplication.Application_Start()</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimMvcApplication.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimMvcApplication.Constructor">
+            <summary>Sets the shim of MvcApplication.MvcApplication()</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.ShimMvcApplication.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimMvcApplication.AllInstances.Application_Start">
+            <summary>Sets the shim of MvcApplication.Application_Start()</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.ShimRouteConfig">
+            <summary>Shim type of OdeToFood.RouteConfig</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimRouteConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimRouteConfig.#ctor(OdeToFood.RouteConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimRouteConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimRouteConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimRouteConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimRouteConfig.Constructor">
+            <summary>Sets the shim of RouteConfig.RouteConfig()</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimRouteConfig.RegisterRoutesRouteCollection">
+            <summary>Sets the shim of RouteConfig.RegisterRoutes(RouteCollection routes)</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.ShimRouteConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.ShimWebApiConfig">
+            <summary>Shim type of OdeToFood.WebApiConfig</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimWebApiConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimWebApiConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.ShimWebApiConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimWebApiConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.ShimWebApiConfig.RegisterHttpConfiguration">
+            <summary>Sets the shim of WebApiConfig.Register(HttpConfiguration config)</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.StubBundleConfig">
+            <summary>Stub type of OdeToFood.BundleConfig</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubBundleConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubBundleConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubBundleConfig</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubBundleConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubBundleConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubBundleConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.StubFilterConfig">
+            <summary>Stub type of OdeToFood.FilterConfig</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubFilterConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubFilterConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubFilterConfig</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubFilterConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubFilterConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubFilterConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.StubMvcApplication">
+            <summary>Stub type of OdeToFood.MvcApplication</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubMvcApplication.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubMvcApplication.Dispose">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="F:OdeToFood.Fakes.StubMvcApplication.Dispose01">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubMvcApplication.GetOutputCacheProviderName(System.Web.HttpContext)">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="F:OdeToFood.Fakes.StubMvcApplication.GetOutputCacheProviderNameHttpContext">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubMvcApplication.GetVaryByCustomString(System.Web.HttpContext,System.String)">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="F:OdeToFood.Fakes.StubMvcApplication.GetVaryByCustomStringHttpContextString">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubMvcApplication.Init">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="F:OdeToFood.Fakes.StubMvcApplication.Init01">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubMvcApplication.InitializeStub">
+            <summary>Initializes a new instance of type StubMvcApplication</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubMvcApplication.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubMvcApplication.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubMvcApplication.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Fakes.StubRouteConfig">
+            <summary>Stub type of OdeToFood.RouteConfig</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubRouteConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Fakes.StubRouteConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubRouteConfig</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubRouteConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubRouteConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Fakes.StubRouteConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute">
+            <summary>Shim type of OdeToFood.Filters.InitializeSimpleMembershipAttribute</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.#ctor(OdeToFood.Filters.InitializeSimpleMembershipAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.Bind(System.Web.Mvc.IMvcFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.Constructor">
+            <summary>Sets the shim of InitializeSimpleMembershipAttribute.InitializeSimpleMembershipAttribute()</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.OnActionExecutingActionExecutingContext">
+            <summary>Sets the shim of InitializeSimpleMembershipAttribute.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.StaticConstructor">
+            <summary>Sets the shim of InitializeSimpleMembershipAttribute.InitializeSimpleMembershipAttribute()</summary>
+        </member>
+        <member name="T:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimInitializeSimpleMembershipAttribute.AllInstances.OnActionExecutingActionExecutingContext">
+            <summary>Sets the shim of InitializeSimpleMembershipAttribute.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="T:OdeToFood.Filters.Fakes.ShimLogAttribute">
+            <summary>Shim type of OdeToFood.Filters.LogAttribute</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimLogAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimLogAttribute.#ctor(OdeToFood.Filters.LogAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimLogAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimLogAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimLogAttribute.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimLogAttribute.Bind(System.Web.Mvc.IMvcFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.ShimLogAttribute.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimLogAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimLogAttribute.Constructor">
+            <summary>Sets the shim of LogAttribute.LogAttribute()</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimLogAttribute.OnActionExecutedActionExecutedContext">
+            <summary>Sets the shim of LogAttribute.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimLogAttribute.OnActionExecutingActionExecutingContext">
+            <summary>Sets the shim of LogAttribute.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimLogAttribute.OnResultExecutedResultExecutedContext">
+            <summary>Sets the shim of LogAttribute.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimLogAttribute.OnResultExecutingResultExecutingContext">
+            <summary>Sets the shim of LogAttribute.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="T:OdeToFood.Filters.Fakes.ShimLogAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimLogAttribute.AllInstances.OnActionExecutedActionExecutedContext">
+            <summary>Sets the shim of LogAttribute.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimLogAttribute.AllInstances.OnActionExecutingActionExecutingContext">
+            <summary>Sets the shim of LogAttribute.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimLogAttribute.AllInstances.OnResultExecutedResultExecutedContext">
+            <summary>Sets the shim of LogAttribute.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.ShimLogAttribute.AllInstances.OnResultExecutingResultExecutingContext">
+            <summary>Sets the shim of LogAttribute.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="T:OdeToFood.Filters.Fakes.StubLogAttribute">
+            <summary>Stub type of OdeToFood.Filters.LogAttribute</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.StubLogAttribute.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.StubLogAttribute.Equals(System.Object)">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:OdeToFood.Filters.Fakes.StubLogAttribute.EqualsObject">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.StubLogAttribute.GetHashCode">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:OdeToFood.Filters.Fakes.StubLogAttribute.GetHashCode01">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.StubLogAttribute.InitializeStub">
+            <summary>Initializes a new instance of type StubLogAttribute</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.StubLogAttribute.IsDefaultAttribute">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:OdeToFood.Filters.Fakes.StubLogAttribute.IsDefaultAttribute01">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.StubLogAttribute.Match(System.Object)">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:OdeToFood.Filters.Fakes.StubLogAttribute.MatchObject">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.StubLogAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of LogAttribute.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Filters.Fakes.StubLogAttribute.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of LogAttribute.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.StubLogAttribute.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of LogAttribute.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Filters.Fakes.StubLogAttribute.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of LogAttribute.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.StubLogAttribute.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of LogAttribute.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Filters.Fakes.StubLogAttribute.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of LogAttribute.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:OdeToFood.Filters.Fakes.StubLogAttribute.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of LogAttribute.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Filters.Fakes.StubLogAttribute.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of LogAttribute.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:OdeToFood.Filters.Fakes.StubLogAttribute.TypeIdGet">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.StubLogAttribute.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.StubLogAttribute.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.StubLogAttribute.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:OdeToFood.Filters.Fakes.StubLogAttribute.TypeId">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimAboutModel">
+            <summary>Shim type of OdeToFood.Models.AboutModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimAboutModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimAboutModel.#ctor(OdeToFood.Models.AboutModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimAboutModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimAboutModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimAboutModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimAboutModel.Constructor">
+            <summary>Sets the shim of AboutModel.AboutModel()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimAboutModel.LocationGet">
+            <summary>Sets the shim of AboutModel.get_Location()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimAboutModel.LocationSetString">
+            <summary>Sets the shim of AboutModel.set_Location(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimAboutModel.NameGet">
+            <summary>Sets the shim of AboutModel.get_Name()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimAboutModel.NameSetString">
+            <summary>Sets the shim of AboutModel.set_Name(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimAboutModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimAboutModel.AllInstances.LocationGet">
+            <summary>Sets the shim of AboutModel.get_Location()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimAboutModel.AllInstances.LocationSetString">
+            <summary>Sets the shim of AboutModel.set_Location(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimAboutModel.AllInstances.NameGet">
+            <summary>Sets the shim of AboutModel.get_Name()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimAboutModel.AllInstances.NameSetString">
+            <summary>Sets the shim of AboutModel.set_Name(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimExternalLogin">
+            <summary>Shim type of OdeToFood.Models.ExternalLogin</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimExternalLogin.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimExternalLogin.#ctor(OdeToFood.Models.ExternalLogin)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimExternalLogin.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimExternalLogin.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.Constructor">
+            <summary>Sets the shim of ExternalLogin.ExternalLogin()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.ProviderDisplayNameGet">
+            <summary>Sets the shim of ExternalLogin.get_ProviderDisplayName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.ProviderDisplayNameSetString">
+            <summary>Sets the shim of ExternalLogin.set_ProviderDisplayName(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.ProviderGet">
+            <summary>Sets the shim of ExternalLogin.get_Provider()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.ProviderSetString">
+            <summary>Sets the shim of ExternalLogin.set_Provider(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.ProviderUserIdGet">
+            <summary>Sets the shim of ExternalLogin.get_ProviderUserId()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.ProviderUserIdSetString">
+            <summary>Sets the shim of ExternalLogin.set_ProviderUserId(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimExternalLogin.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.AllInstances.ProviderDisplayNameGet">
+            <summary>Sets the shim of ExternalLogin.get_ProviderDisplayName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.AllInstances.ProviderDisplayNameSetString">
+            <summary>Sets the shim of ExternalLogin.set_ProviderDisplayName(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.AllInstances.ProviderGet">
+            <summary>Sets the shim of ExternalLogin.get_Provider()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.AllInstances.ProviderSetString">
+            <summary>Sets the shim of ExternalLogin.set_Provider(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.AllInstances.ProviderUserIdGet">
+            <summary>Sets the shim of ExternalLogin.get_ProviderUserId()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimExternalLogin.AllInstances.ProviderUserIdSetString">
+            <summary>Sets the shim of ExternalLogin.set_ProviderUserId(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimLocalPasswordModel">
+            <summary>Shim type of OdeToFood.Models.LocalPasswordModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimLocalPasswordModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimLocalPasswordModel.#ctor(OdeToFood.Models.LocalPasswordModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimLocalPasswordModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimLocalPasswordModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.ConfirmPasswordGet">
+            <summary>Sets the shim of LocalPasswordModel.get_ConfirmPassword()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.ConfirmPasswordSetString">
+            <summary>Sets the shim of LocalPasswordModel.set_ConfirmPassword(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.Constructor">
+            <summary>Sets the shim of LocalPasswordModel.LocalPasswordModel()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.NewPasswordGet">
+            <summary>Sets the shim of LocalPasswordModel.get_NewPassword()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.NewPasswordSetString">
+            <summary>Sets the shim of LocalPasswordModel.set_NewPassword(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.OldPasswordGet">
+            <summary>Sets the shim of LocalPasswordModel.get_OldPassword()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.OldPasswordSetString">
+            <summary>Sets the shim of LocalPasswordModel.set_OldPassword(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimLocalPasswordModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.AllInstances.ConfirmPasswordGet">
+            <summary>Sets the shim of LocalPasswordModel.get_ConfirmPassword()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.AllInstances.ConfirmPasswordSetString">
+            <summary>Sets the shim of LocalPasswordModel.set_ConfirmPassword(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.AllInstances.NewPasswordGet">
+            <summary>Sets the shim of LocalPasswordModel.get_NewPassword()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.AllInstances.NewPasswordSetString">
+            <summary>Sets the shim of LocalPasswordModel.set_NewPassword(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.AllInstances.OldPasswordGet">
+            <summary>Sets the shim of LocalPasswordModel.get_OldPassword()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLocalPasswordModel.AllInstances.OldPasswordSetString">
+            <summary>Sets the shim of LocalPasswordModel.set_OldPassword(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimLoginModel">
+            <summary>Shim type of OdeToFood.Models.LoginModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimLoginModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimLoginModel.#ctor(OdeToFood.Models.LoginModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimLoginModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimLoginModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.Constructor">
+            <summary>Sets the shim of LoginModel.LoginModel()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.PasswordGet">
+            <summary>Sets the shim of LoginModel.get_Password()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.PasswordSetString">
+            <summary>Sets the shim of LoginModel.set_Password(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.RememberMeGet">
+            <summary>Sets the shim of LoginModel.get_RememberMe()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.RememberMeSetBoolean">
+            <summary>Sets the shim of LoginModel.set_RememberMe(Boolean value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.UserNameGet">
+            <summary>Sets the shim of LoginModel.get_UserName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.UserNameSetString">
+            <summary>Sets the shim of LoginModel.set_UserName(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimLoginModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.AllInstances.PasswordGet">
+            <summary>Sets the shim of LoginModel.get_Password()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.AllInstances.PasswordSetString">
+            <summary>Sets the shim of LoginModel.set_Password(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.AllInstances.RememberMeGet">
+            <summary>Sets the shim of LoginModel.get_RememberMe()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.AllInstances.RememberMeSetBoolean">
+            <summary>Sets the shim of LoginModel.set_RememberMe(Boolean value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.AllInstances.UserNameGet">
+            <summary>Sets the shim of LoginModel.get_UserName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.AllInstances.UserNameSetString">
+            <summary>Sets the shim of LoginModel.set_UserName(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel">
+            <summary>Shim type of OdeToFood.Models.RegisterExternalLoginModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.#ctor(OdeToFood.Models.RegisterExternalLoginModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.Constructor">
+            <summary>Sets the shim of RegisterExternalLoginModel.RegisterExternalLoginModel()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.ExternalLoginDataGet">
+            <summary>Sets the shim of RegisterExternalLoginModel.get_ExternalLoginData()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.ExternalLoginDataSetString">
+            <summary>Sets the shim of RegisterExternalLoginModel.set_ExternalLoginData(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.UserNameGet">
+            <summary>Sets the shim of RegisterExternalLoginModel.get_UserName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.UserNameSetString">
+            <summary>Sets the shim of RegisterExternalLoginModel.set_UserName(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.AllInstances.ExternalLoginDataGet">
+            <summary>Sets the shim of RegisterExternalLoginModel.get_ExternalLoginData()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.AllInstances.ExternalLoginDataSetString">
+            <summary>Sets the shim of RegisterExternalLoginModel.set_ExternalLoginData(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.AllInstances.UserNameGet">
+            <summary>Sets the shim of RegisterExternalLoginModel.get_UserName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel.AllInstances.UserNameSetString">
+            <summary>Sets the shim of RegisterExternalLoginModel.set_UserName(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimRegisterModel">
+            <summary>Shim type of OdeToFood.Models.RegisterModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRegisterModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRegisterModel.#ctor(OdeToFood.Models.RegisterModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRegisterModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRegisterModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.ConfirmPasswordGet">
+            <summary>Sets the shim of RegisterModel.get_ConfirmPassword()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.ConfirmPasswordSetString">
+            <summary>Sets the shim of RegisterModel.set_ConfirmPassword(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.Constructor">
+            <summary>Sets the shim of RegisterModel.RegisterModel()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.PasswordGet">
+            <summary>Sets the shim of RegisterModel.get_Password()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.PasswordSetString">
+            <summary>Sets the shim of RegisterModel.set_Password(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.UserNameGet">
+            <summary>Sets the shim of RegisterModel.get_UserName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.UserNameSetString">
+            <summary>Sets the shim of RegisterModel.set_UserName(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimRegisterModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.AllInstances.ConfirmPasswordGet">
+            <summary>Sets the shim of RegisterModel.get_ConfirmPassword()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.AllInstances.ConfirmPasswordSetString">
+            <summary>Sets the shim of RegisterModel.set_ConfirmPassword(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.AllInstances.PasswordGet">
+            <summary>Sets the shim of RegisterModel.get_Password()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.AllInstances.PasswordSetString">
+            <summary>Sets the shim of RegisterModel.set_Password(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.AllInstances.UserNameGet">
+            <summary>Sets the shim of RegisterModel.get_UserName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.AllInstances.UserNameSetString">
+            <summary>Sets the shim of RegisterModel.set_UserName(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimRestaurantReview">
+            <summary>Shim type of OdeToFood.Models.RestaurantReview</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurantReview.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurantReview.#ctor(OdeToFood.Models.RestaurantReview)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurantReview.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurantReview.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.CityGet">
+            <summary>Sets the shim of RestaurantReview.get_City()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.CitySetString">
+            <summary>Sets the shim of RestaurantReview.set_City(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.Constructor">
+            <summary>Sets the shim of RestaurantReview.RestaurantReview()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.CountryGet">
+            <summary>Sets the shim of RestaurantReview.get_Country()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.CountrySetString">
+            <summary>Sets the shim of RestaurantReview.set_Country(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.IdGet">
+            <summary>Sets the shim of RestaurantReview.get_Id()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.IdSetInt32">
+            <summary>Sets the shim of RestaurantReview.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.NameGet">
+            <summary>Sets the shim of RestaurantReview.get_Name()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.NameSetString">
+            <summary>Sets the shim of RestaurantReview.set_Name(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.RatingGet">
+            <summary>Sets the shim of RestaurantReview.get_Rating()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.RatingSetInt32">
+            <summary>Sets the shim of RestaurantReview.set_Rating(Int32 value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.CityGet">
+            <summary>Sets the shim of RestaurantReview.get_City()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.CitySetString">
+            <summary>Sets the shim of RestaurantReview.set_City(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.CountryGet">
+            <summary>Sets the shim of RestaurantReview.get_Country()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.CountrySetString">
+            <summary>Sets the shim of RestaurantReview.set_Country(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.IdGet">
+            <summary>Sets the shim of RestaurantReview.get_Id()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.IdSetInt32">
+            <summary>Sets the shim of RestaurantReview.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.NameGet">
+            <summary>Sets the shim of RestaurantReview.get_Name()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.NameSetString">
+            <summary>Sets the shim of RestaurantReview.set_Name(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.RatingGet">
+            <summary>Sets the shim of RestaurantReview.get_Rating()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.RatingSetInt32">
+            <summary>Sets the shim of RestaurantReview.set_Rating(Int32 value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimUserProfile">
+            <summary>Shim type of OdeToFood.Models.UserProfile</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimUserProfile.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimUserProfile.#ctor(OdeToFood.Models.UserProfile)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimUserProfile.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimUserProfile.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUserProfile.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUserProfile.Constructor">
+            <summary>Sets the shim of UserProfile.UserProfile()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUserProfile.UserIdGet">
+            <summary>Sets the shim of UserProfile.get_UserId()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUserProfile.UserIdSetInt32">
+            <summary>Sets the shim of UserProfile.set_UserId(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUserProfile.UserNameGet">
+            <summary>Sets the shim of UserProfile.get_UserName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUserProfile.UserNameSetString">
+            <summary>Sets the shim of UserProfile.set_UserName(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimUserProfile.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUserProfile.AllInstances.UserIdGet">
+            <summary>Sets the shim of UserProfile.get_UserId()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUserProfile.AllInstances.UserIdSetInt32">
+            <summary>Sets the shim of UserProfile.set_UserId(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUserProfile.AllInstances.UserNameGet">
+            <summary>Sets the shim of UserProfile.get_UserName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUserProfile.AllInstances.UserNameSetString">
+            <summary>Sets the shim of UserProfile.set_UserName(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimUsersContext">
+            <summary>Shim type of OdeToFood.Models.UsersContext</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimUsersContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimUsersContext.#ctor(OdeToFood.Models.UsersContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimUsersContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimUsersContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimUsersContext.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimUsersContext.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUsersContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUsersContext.Constructor">
+            <summary>Sets the shim of UsersContext.UsersContext()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUsersContext.UserProfilesGet">
+            <summary>Sets the shim of UsersContext.get_UserProfiles()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUsersContext.UserProfilesSetDbSetOfUserProfile">
+            <summary>Sets the shim of UsersContext.set_UserProfiles(DbSet`1&lt;UserProfile&gt; value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimUsersContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUsersContext.AllInstances.UserProfilesGet">
+            <summary>Sets the shim of UsersContext.get_UserProfiles()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimUsersContext.AllInstances.UserProfilesSetDbSetOfUserProfile">
+            <summary>Sets the shim of UsersContext.set_UserProfiles(DbSet`1&lt;UserProfile&gt; value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubAboutModel">
+            <summary>Stub type of OdeToFood.Models.AboutModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubAboutModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubAboutModel.InitializeStub">
+            <summary>Initializes a new instance of type StubAboutModel</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubAboutModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubAboutModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubAboutModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubExternalLogin">
+            <summary>Stub type of OdeToFood.Models.ExternalLogin</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubExternalLogin.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubExternalLogin.InitializeStub">
+            <summary>Initializes a new instance of type StubExternalLogin</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubExternalLogin.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubExternalLogin.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubExternalLogin.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubLocalPasswordModel">
+            <summary>Stub type of OdeToFood.Models.LocalPasswordModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubLocalPasswordModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubLocalPasswordModel.InitializeStub">
+            <summary>Initializes a new instance of type StubLocalPasswordModel</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubLocalPasswordModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubLocalPasswordModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubLocalPasswordModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubLoginModel">
+            <summary>Stub type of OdeToFood.Models.LoginModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubLoginModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubLoginModel.InitializeStub">
+            <summary>Initializes a new instance of type StubLoginModel</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubLoginModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubLoginModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubLoginModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubRegisterExternalLoginModel">
+            <summary>Stub type of OdeToFood.Models.RegisterExternalLoginModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubRegisterExternalLoginModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubRegisterExternalLoginModel.InitializeStub">
+            <summary>Initializes a new instance of type StubRegisterExternalLoginModel</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRegisterExternalLoginModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRegisterExternalLoginModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRegisterExternalLoginModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubRegisterModel">
+            <summary>Stub type of OdeToFood.Models.RegisterModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubRegisterModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubRegisterModel.InitializeStub">
+            <summary>Initializes a new instance of type StubRegisterModel</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRegisterModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRegisterModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRegisterModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubRestaurantReview">
+            <summary>Stub type of OdeToFood.Models.RestaurantReview</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubRestaurantReview.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubRestaurantReview.InitializeStub">
+            <summary>Initializes a new instance of type StubRestaurantReview</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRestaurantReview.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRestaurantReview.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRestaurantReview.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubUserProfile">
+            <summary>Stub type of OdeToFood.Models.UserProfile</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUserProfile.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUserProfile.InitializeStub">
+            <summary>Initializes a new instance of type StubUserProfile</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubUserProfile.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubUserProfile.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubUserProfile.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubUsersContext">
+            <summary>Stub type of OdeToFood.Models.UsersContext</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUsersContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUsersContext.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubUsersContext.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUsersContext.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubUsersContext.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUsersContext.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubUsersContext.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUsersContext.InitializeStub">
+            <summary>Initializes a new instance of type StubUsersContext</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUsersContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubUsersContext.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUsersContext.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubUsersContext.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUsersContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubUsersContext.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUsersContext.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubUsersContext.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubUsersContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubUsersContext.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubUsersContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubUsersContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubUsersContext.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
