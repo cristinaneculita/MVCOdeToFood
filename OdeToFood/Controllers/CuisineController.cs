@@ -7,16 +7,17 @@ using OdeToFood.Filters;
 
 namespace OdeToFood.Controllers
 {
+    //[Authorize]
     [Log]
     public class CuisineController : Controller
     {
-        //
-        // GET: /Cuisine/
-       
-        public ActionResult Search(string name)
+        
+      
+        public ActionResult Search()
         {
-            var message = name;
-            return Content(message);
+
+            throw new Exception("info");
+            return Content("search");
         }
      
 

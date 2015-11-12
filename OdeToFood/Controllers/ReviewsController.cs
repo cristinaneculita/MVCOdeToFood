@@ -14,10 +14,7 @@ namespace OdeToFood.Controllers
 
         public ActionResult Index()
         {
-            var model = from r in _reviews
-                        orderby r.Country
-                        select r;
-           
+            var model = _reviews.OrderBy(it => it.Rating);
             return View(model);
            
         }
@@ -56,38 +53,38 @@ namespace OdeToFood.Controllers
         //    }
         //}
 
-        ////
-        //// GET: /Reviews/Edit/5
+        //
+        // GET: /Reviews/Edit/5
 
-        //public ActionResult Edit(int id)
-        //{
-        //    return View();
-        //}
+        public ActionResult Edit(int id)
+        {
+            var review = _reviews.Single(it => it.Id == id);
+            return View(review);
+        }
 
-        ////
-        //// POST: /Reviews/Edit/5
+        //
+        // POST: /Reviews/Edit/5
 
-        //[HttpPost]
-        //public ActionResult Edit(int id, FormCollection collection)
-        //{
-        //    try
-        //    {
-        //        // TODO: Add update logic here
+        [HttpPost]
+        public ActionResult Edit(int id, FormCollection collection)
+        {
+            var review = _reviews.Single(it => it.Id == id);
+            if (TryUpdateModel(review))
+            {
+                //save into db
+                return RedirectToAction("Index");
+            }
+            return View(review);
 
-        //        return RedirectToAction("Index");
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
+        }
 
-        ////
-        //// GET: /Reviews/Delete/5
+        //
+        // GET: /Reviews/Delete/5
 
         //public ActionResult Delete(int id)
         //{
-        //    return View();
+        //    var review = _reviews.Single(it => it.Id == id);
+        //    return View(review);
         //}
 
         ////
@@ -120,7 +117,7 @@ namespace OdeToFood.Controllers
             },
             new RestaurantReview
             {
-                Id = 1,
+                Id = 2,
                 Name = "Toujours",
                 City = "Iasi",
                 Country = "Usa",
@@ -128,13 +125,18 @@ namespace OdeToFood.Controllers
             },
             new RestaurantReview
             {
-                Id = 1,
+                Id = 3,
                 Name = "McDonalds",
                 City = "Iasi",
                 Country = "France",
-                Rating = 5,
+                Rating = 9,
             }
         };
-
+        [ChildActionOnly]
+        public ActionResult BestReview()
+        {
+            var bestReview = _reviews.OrderByDescending(it=>it.Rating);
+            return PartialView("_Review", bestReview.First());
+        }
     }
 }

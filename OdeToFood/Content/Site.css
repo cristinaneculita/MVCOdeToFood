@@ -90,6 +90,19 @@ h5, h6 {
         text-decoration: none;
     }
 
+ .review {
+        padding: 2px;
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+    }
+ .review h4 {
+     color: Maroon;
+     padding: 5px;
+     background: #cccc99
+ }
+ .review p {
+     font-size: .8em;
+ }
 
 /* main layout
 ----------------------------------------------------------*/
@@ -749,4 +762,6 @@ tr.pager td {
         footer p {
             margin: 0;
         }
+
+   
 }

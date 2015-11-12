@@ -190,14 +190,14 @@
         <member name="P:OdeToFood.Controllers.Fakes.ShimCuisineController.Constructor">
             <summary>Sets the shim of CuisineController.CuisineController()</summary>
         </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimCuisineController.SearchString">
-            <summary>Sets the shim of CuisineController.Search(String name)</summary>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimCuisineController.Search">
+            <summary>Sets the shim of CuisineController.Search()</summary>
         </member>
         <member name="T:OdeToFood.Controllers.Fakes.ShimCuisineController.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimCuisineController.AllInstances.SearchString">
-            <summary>Sets the shim of CuisineController.Search(String name)</summary>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimCuisineController.AllInstances.Search">
+            <summary>Sets the shim of CuisineController.Search()</summary>
         </member>
         <member name="T:OdeToFood.Controllers.Fakes.ShimHomeController">
             <summary>Shim type of OdeToFood.Controllers.HomeController</summary>
@@ -307,8 +307,17 @@
         <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.Behavior">
             <summary>Assigns the behavior for all methods of the shimmed type</summary>
         </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.BestReview">
+            <summary>Sets the shim of ReviewsController.BestReview()</summary>
+        </member>
         <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.Constructor">
             <summary>Sets the shim of ReviewsController.ReviewsController()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.EditInt32">
+            <summary>Sets the shim of ReviewsController.Edit(Int32 id)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.EditInt32FormCollection">
+            <summary>Sets the shim of ReviewsController.Edit(Int32 id, FormCollection collection)</summary>
         </member>
         <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.Index">
             <summary>Sets the shim of ReviewsController.Index()</summary>
@@ -316,8 +325,23 @@
         <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.StaticConstructor">
             <summary>Sets the shim of ReviewsController.ReviewsController()</summary>
         </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController._BestReviewb__8RestaurantReview">
+            <summary>Sets the shim of ReviewsController.&lt;BestReview&gt;b__8(RestaurantReview it)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController._Indexb__0RestaurantReview">
+            <summary>Sets the shim of ReviewsController.&lt;Index&gt;b__0(RestaurantReview it)</summary>
+        </member>
         <member name="T:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances">
             <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances.BestReview">
+            <summary>Sets the shim of ReviewsController.BestReview()</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances.EditInt32">
+            <summary>Sets the shim of ReviewsController.Edit(Int32 id)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances.EditInt32FormCollection">
+            <summary>Sets the shim of ReviewsController.Edit(Int32 id, FormCollection collection)</summary>
         </member>
         <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances.Index">
             <summary>Sets the shim of ReviewsController.Index()</summary>
