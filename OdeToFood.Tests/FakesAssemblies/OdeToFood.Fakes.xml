@@ -250,8 +250,11 @@
         <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.Contact">
             <summary>Sets the shim of HomeController.Contact()</summary>
         </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.Index">
-            <summary>Sets the shim of HomeController.Index()</summary>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.DisposeBoolean">
+            <summary>Sets the shim of HomeController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.IndexString">
+            <summary>Sets the shim of HomeController.Index(String searchTerm)</summary>
         </member>
         <member name="T:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances">
             <summary>Define shims for all instances members</summary>
@@ -262,8 +265,11 @@
         <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances.Contact">
             <summary>Sets the shim of HomeController.Contact()</summary>
         </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances.Index">
-            <summary>Sets the shim of HomeController.Index()</summary>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of HomeController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances.IndexString">
+            <summary>Sets the shim of HomeController.Index(String searchTerm)</summary>
         </member>
         <member name="T:OdeToFood.Controllers.Fakes.ShimReviewsController">
             <summary>Shim type of OdeToFood.Controllers.ReviewsController</summary>
@@ -307,44 +313,11 @@
         <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.Behavior">
             <summary>Assigns the behavior for all methods of the shimmed type</summary>
         </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.BestReview">
-            <summary>Sets the shim of ReviewsController.BestReview()</summary>
-        </member>
         <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.Constructor">
             <summary>Sets the shim of ReviewsController.ReviewsController()</summary>
         </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.EditInt32">
-            <summary>Sets the shim of ReviewsController.Edit(Int32 id)</summary>
-        </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.EditInt32FormCollection">
-            <summary>Sets the shim of ReviewsController.Edit(Int32 id, FormCollection collection)</summary>
-        </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.Index">
-            <summary>Sets the shim of ReviewsController.Index()</summary>
-        </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.StaticConstructor">
-            <summary>Sets the shim of ReviewsController.ReviewsController()</summary>
-        </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController._BestReviewb__8RestaurantReview">
-            <summary>Sets the shim of ReviewsController.&lt;BestReview&gt;b__8(RestaurantReview it)</summary>
-        </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController._Indexb__0RestaurantReview">
-            <summary>Sets the shim of ReviewsController.&lt;Index&gt;b__0(RestaurantReview it)</summary>
-        </member>
         <member name="T:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances">
             <summary>Define shims for all instances members</summary>
-        </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances.BestReview">
-            <summary>Sets the shim of ReviewsController.BestReview()</summary>
-        </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances.EditInt32">
-            <summary>Sets the shim of ReviewsController.Edit(Int32 id)</summary>
-        </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances.EditInt32FormCollection">
-            <summary>Sets the shim of ReviewsController.Edit(Int32 id, FormCollection collection)</summary>
-        </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimReviewsController.AllInstances.Index">
-            <summary>Sets the shim of ReviewsController.Index()</summary>
         </member>
         <member name="T:OdeToFood.Controllers.Fakes.StubAccountController">
             <summary>Stub type of OdeToFood.Controllers.AccountController</summary>
@@ -842,10 +815,10 @@
             <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
         </member>
         <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.Dispose(System.Boolean)">
-            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+            <summary>Sets the stub of HomeController.Dispose(Boolean disposing)</summary>
         </member>
         <member name="F:OdeToFood.Controllers.Fakes.StubHomeController.DisposeBoolean">
-            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+            <summary>Sets the stub of HomeController.Dispose(Boolean disposing)</summary>
         </member>
         <member name="M:OdeToFood.Controllers.Fakes.StubHomeController.EndExecute(System.IAsyncResult)">
             <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
@@ -1684,6 +1657,63 @@
         <member name="P:OdeToFood.Filters.Fakes.StubLogAttribute.TypeId">
             <summary>Sets the stub of Attribute.get_TypeId()</summary>
         </member>
+        <member name="T:OdeToFood.Migrations.Fakes.ShimInitialCreate">
+            <summary>Shim type of OdeToFood.Migrations.InitialCreate</summary>
+        </member>
+        <member name="M:OdeToFood.Migrations.Fakes.ShimInitialCreate.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Migrations.Fakes.ShimInitialCreate.#ctor(OdeToFood.Migrations.InitialCreate)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Migrations.Fakes.ShimInitialCreate.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Migrations.Fakes.ShimInitialCreate.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Migrations.Fakes.ShimInitialCreate.Bind(System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.Constructor">
+            <summary>Sets the shim of InitialCreate.InitialCreate()</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.Down">
+            <summary>Sets the shim of InitialCreate.Down()</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.IdSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of InitialCreate.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.SourceSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of InitialCreate.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.TargetSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of InitialCreate.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.Up">
+            <summary>Sets the shim of InitialCreate.Up()</summary>
+        </member>
+        <member name="T:OdeToFood.Migrations.Fakes.ShimInitialCreate.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.AllInstances.Down">
+            <summary>Sets the shim of InitialCreate.Down()</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.AllInstances.IdSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of InitialCreate.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.AllInstances.SourceSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of InitialCreate.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.AllInstances.TargetSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of InitialCreate.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</summary>
+        </member>
+        <member name="P:OdeToFood.Migrations.Fakes.ShimInitialCreate.AllInstances.Up">
+            <summary>Sets the shim of InitialCreate.Up()</summary>
+        </member>
         <member name="T:OdeToFood.Models.Fakes.ShimAboutModel">
             <summary>Shim type of OdeToFood.Models.AboutModel</summary>
         </member>
@@ -1912,6 +1942,60 @@
         <member name="P:OdeToFood.Models.Fakes.ShimLoginModel.AllInstances.UserNameSetString">
             <summary>Sets the shim of LoginModel.set_UserName(String value)</summary>
         </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimOdeToFoodDb">
+            <summary>Shim type of OdeToFood.Models.OdeToFoodDb</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimOdeToFoodDb.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimOdeToFoodDb.#ctor(OdeToFood.Models.OdeToFoodDb)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimOdeToFoodDb.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimOdeToFoodDb.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimOdeToFoodDb.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimOdeToFoodDb.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimOdeToFoodDb.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimOdeToFoodDb.Constructor">
+            <summary>Sets the shim of OdeToFoodDb.OdeToFoodDb()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimOdeToFoodDb.RestaurantsGet">
+            <summary>Sets the shim of OdeToFoodDb.get_Restaurants()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimOdeToFoodDb.RestaurantsSetDbSetOfRestaurant">
+            <summary>Sets the shim of OdeToFoodDb.set_Restaurants(DbSet`1&lt;Restaurant&gt; value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimOdeToFoodDb.ReviewsGet">
+            <summary>Sets the shim of OdeToFoodDb.get_Reviews()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimOdeToFoodDb.ReviewsSetDbSetOfRestaurantReview">
+            <summary>Sets the shim of OdeToFoodDb.set_Reviews(DbSet`1&lt;RestaurantReview&gt; value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimOdeToFoodDb.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimOdeToFoodDb.AllInstances.RestaurantsGet">
+            <summary>Sets the shim of OdeToFoodDb.get_Restaurants()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimOdeToFoodDb.AllInstances.RestaurantsSetDbSetOfRestaurant">
+            <summary>Sets the shim of OdeToFoodDb.set_Restaurants(DbSet`1&lt;Restaurant&gt; value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimOdeToFoodDb.AllInstances.ReviewsGet">
+            <summary>Sets the shim of OdeToFoodDb.get_Reviews()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimOdeToFoodDb.AllInstances.ReviewsSetDbSetOfRestaurantReview">
+            <summary>Sets the shim of OdeToFoodDb.set_Reviews(DbSet`1&lt;RestaurantReview&gt; value)</summary>
+        </member>
         <member name="T:OdeToFood.Models.Fakes.ShimRegisterExternalLoginModel">
             <summary>Shim type of OdeToFood.Models.RegisterExternalLoginModel</summary>
         </member>
@@ -2020,6 +2104,174 @@
         <member name="P:OdeToFood.Models.Fakes.ShimRegisterModel.AllInstances.UserNameSetString">
             <summary>Sets the shim of RegisterModel.set_UserName(String value)</summary>
         </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimRestaurant">
+            <summary>Shim type of OdeToFood.Models.Restaurant</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurant.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurant.#ctor(OdeToFood.Models.Restaurant)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurant.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurant.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.CityGet">
+            <summary>Sets the shim of Restaurant.get_City()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.CitySetString">
+            <summary>Sets the shim of Restaurant.set_City(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.Constructor">
+            <summary>Sets the shim of Restaurant.Restaurant()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.CountryGet">
+            <summary>Sets the shim of Restaurant.get_Country()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.CountrySetString">
+            <summary>Sets the shim of Restaurant.set_Country(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.IdGet">
+            <summary>Sets the shim of Restaurant.get_Id()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.IdSetInt32">
+            <summary>Sets the shim of Restaurant.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.NameGet">
+            <summary>Sets the shim of Restaurant.get_Name()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.NameSetString">
+            <summary>Sets the shim of Restaurant.set_Name(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.ReviewsGet">
+            <summary>Sets the shim of Restaurant.get_Reviews()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.ReviewsSetICollectionOfRestaurantReview">
+            <summary>Sets the shim of Restaurant.set_Reviews(ICollection`1&lt;RestaurantReview&gt; value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances.CityGet">
+            <summary>Sets the shim of Restaurant.get_City()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances.CitySetString">
+            <summary>Sets the shim of Restaurant.set_City(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances.CountryGet">
+            <summary>Sets the shim of Restaurant.get_Country()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances.CountrySetString">
+            <summary>Sets the shim of Restaurant.set_Country(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances.IdGet">
+            <summary>Sets the shim of Restaurant.get_Id()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Restaurant.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances.NameGet">
+            <summary>Sets the shim of Restaurant.get_Name()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances.NameSetString">
+            <summary>Sets the shim of Restaurant.set_Name(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances.ReviewsGet">
+            <summary>Sets the shim of Restaurant.get_Reviews()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurant.AllInstances.ReviewsSetICollectionOfRestaurantReview">
+            <summary>Sets the shim of Restaurant.set_Reviews(ICollection`1&lt;RestaurantReview&gt; value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimRestaurantListViewModel">
+            <summary>Shim type of OdeToFood.Models.RestaurantListViewModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.#ctor(OdeToFood.Models.RestaurantListViewModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.CityGet">
+            <summary>Sets the shim of RestaurantListViewModel.get_City()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.CitySetString">
+            <summary>Sets the shim of RestaurantListViewModel.set_City(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.Constructor">
+            <summary>Sets the shim of RestaurantListViewModel.RestaurantListViewModel()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.CountOfReviewsGet">
+            <summary>Sets the shim of RestaurantListViewModel.get_CountOfReviews()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.CountOfReviewsSetInt32">
+            <summary>Sets the shim of RestaurantListViewModel.set_CountOfReviews(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.CountryGet">
+            <summary>Sets the shim of RestaurantListViewModel.get_Country()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.CountrySetString">
+            <summary>Sets the shim of RestaurantListViewModel.set_Country(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.IdGet">
+            <summary>Sets the shim of RestaurantListViewModel.get_Id()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.IdSetInt32">
+            <summary>Sets the shim of RestaurantListViewModel.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.NameGet">
+            <summary>Sets the shim of RestaurantListViewModel.get_Name()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.NameSetString">
+            <summary>Sets the shim of RestaurantListViewModel.set_Name(String value)</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances.CityGet">
+            <summary>Sets the shim of RestaurantListViewModel.get_City()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances.CitySetString">
+            <summary>Sets the shim of RestaurantListViewModel.set_City(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances.CountOfReviewsGet">
+            <summary>Sets the shim of RestaurantListViewModel.get_CountOfReviews()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances.CountOfReviewsSetInt32">
+            <summary>Sets the shim of RestaurantListViewModel.set_CountOfReviews(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances.CountryGet">
+            <summary>Sets the shim of RestaurantListViewModel.get_Country()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances.CountrySetString">
+            <summary>Sets the shim of RestaurantListViewModel.set_Country(String value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances.IdGet">
+            <summary>Sets the shim of RestaurantListViewModel.get_Id()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances.IdSetInt32">
+            <summary>Sets the shim of RestaurantListViewModel.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances.NameGet">
+            <summary>Sets the shim of RestaurantListViewModel.get_Name()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantListViewModel.AllInstances.NameSetString">
+            <summary>Sets the shim of RestaurantListViewModel.set_Name(String value)</summary>
+        </member>
         <member name="T:OdeToFood.Models.Fakes.ShimRestaurantReview">
             <summary>Shim type of OdeToFood.Models.RestaurantReview</summary>
         </member>
@@ -2038,20 +2290,14 @@
         <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.Behavior">
             <summary>Assigns the behavior for all methods of the shimmed type</summary>
         </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.CityGet">
-            <summary>Sets the shim of RestaurantReview.get_City()</summary>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.BodyGet">
+            <summary>Sets the shim of RestaurantReview.get_Body()</summary>
         </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.CitySetString">
-            <summary>Sets the shim of RestaurantReview.set_City(String value)</summary>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.BodySetString">
+            <summary>Sets the shim of RestaurantReview.set_Body(String value)</summary>
         </member>
         <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.Constructor">
             <summary>Sets the shim of RestaurantReview.RestaurantReview()</summary>
-        </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.CountryGet">
-            <summary>Sets the shim of RestaurantReview.get_Country()</summary>
-        </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.CountrySetString">
-            <summary>Sets the shim of RestaurantReview.set_Country(String value)</summary>
         </member>
         <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.IdGet">
             <summary>Sets the shim of RestaurantReview.get_Id()</summary>
@@ -2059,32 +2305,32 @@
         <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.IdSetInt32">
             <summary>Sets the shim of RestaurantReview.set_Id(Int32 value)</summary>
         </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.NameGet">
-            <summary>Sets the shim of RestaurantReview.get_Name()</summary>
-        </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.NameSetString">
-            <summary>Sets the shim of RestaurantReview.set_Name(String value)</summary>
-        </member>
         <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.RatingGet">
             <summary>Sets the shim of RestaurantReview.get_Rating()</summary>
         </member>
         <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.RatingSetInt32">
             <summary>Sets the shim of RestaurantReview.set_Rating(Int32 value)</summary>
         </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.RestaurantIdGet">
+            <summary>Sets the shim of RestaurantReview.get_RestaurantId()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.RestaurantIdSetInt32">
+            <summary>Sets the shim of RestaurantReview.set_RestaurantId(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.ReviewerNameGet">
+            <summary>Sets the shim of RestaurantReview.get_ReviewerName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.ReviewerNameSetString">
+            <summary>Sets the shim of RestaurantReview.set_ReviewerName(String value)</summary>
+        </member>
         <member name="T:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.CityGet">
-            <summary>Sets the shim of RestaurantReview.get_City()</summary>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.BodyGet">
+            <summary>Sets the shim of RestaurantReview.get_Body()</summary>
         </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.CitySetString">
-            <summary>Sets the shim of RestaurantReview.set_City(String value)</summary>
-        </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.CountryGet">
-            <summary>Sets the shim of RestaurantReview.get_Country()</summary>
-        </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.CountrySetString">
-            <summary>Sets the shim of RestaurantReview.set_Country(String value)</summary>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.BodySetString">
+            <summary>Sets the shim of RestaurantReview.set_Body(String value)</summary>
         </member>
         <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.IdGet">
             <summary>Sets the shim of RestaurantReview.get_Id()</summary>
@@ -2092,17 +2338,23 @@
         <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.IdSetInt32">
             <summary>Sets the shim of RestaurantReview.set_Id(Int32 value)</summary>
         </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.NameGet">
-            <summary>Sets the shim of RestaurantReview.get_Name()</summary>
-        </member>
-        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.NameSetString">
-            <summary>Sets the shim of RestaurantReview.set_Name(String value)</summary>
-        </member>
         <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.RatingGet">
             <summary>Sets the shim of RestaurantReview.get_Rating()</summary>
         </member>
         <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.RatingSetInt32">
             <summary>Sets the shim of RestaurantReview.set_Rating(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.RestaurantIdGet">
+            <summary>Sets the shim of RestaurantReview.get_RestaurantId()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.RestaurantIdSetInt32">
+            <summary>Sets the shim of RestaurantReview.set_RestaurantId(Int32 value)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.ReviewerNameGet">
+            <summary>Sets the shim of RestaurantReview.get_ReviewerName()</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.ShimRestaurantReview.AllInstances.ReviewerNameSetString">
+            <summary>Sets the shim of RestaurantReview.set_ReviewerName(String value)</summary>
         </member>
         <member name="T:OdeToFood.Models.Fakes.ShimUserProfile">
             <summary>Shim type of OdeToFood.Models.UserProfile</summary>
@@ -2266,6 +2518,72 @@
         <member name="P:OdeToFood.Models.Fakes.StubLoginModel.InstanceObserver">
             <summary>Gets or sets the instance observer.</summary>
         </member>
+        <member name="T:OdeToFood.Models.Fakes.StubOdeToFoodDb">
+            <summary>Stub type of OdeToFood.Models.OdeToFoodDb</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubOdeToFoodDb.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubOdeToFoodDb.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubOdeToFoodDb.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubOdeToFoodDb.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubOdeToFoodDb.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubOdeToFoodDb.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubOdeToFoodDb.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubOdeToFoodDb.InitializeStub">
+            <summary>Initializes a new instance of type StubOdeToFoodDb</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubOdeToFoodDb.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubOdeToFoodDb.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubOdeToFoodDb.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubOdeToFoodDb.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubOdeToFoodDb.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubOdeToFoodDb.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubOdeToFoodDb.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubOdeToFoodDb.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubOdeToFoodDb.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:OdeToFood.Models.Fakes.StubOdeToFoodDb.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubOdeToFoodDb.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubOdeToFoodDb.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubOdeToFoodDb.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
         <member name="T:OdeToFood.Models.Fakes.StubRegisterExternalLoginModel">
             <summary>Stub type of OdeToFood.Models.RegisterExternalLoginModel</summary>
         </member>
@@ -2300,6 +2618,42 @@
             <summary>Gets or sets the instance behavior.</summary>
         </member>
         <member name="P:OdeToFood.Models.Fakes.StubRegisterModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubRestaurant">
+            <summary>Stub type of OdeToFood.Models.Restaurant</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubRestaurant.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubRestaurant.InitializeStub">
+            <summary>Initializes a new instance of type StubRestaurant</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRestaurant.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRestaurant.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRestaurant.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:OdeToFood.Models.Fakes.StubRestaurantListViewModel">
+            <summary>Stub type of OdeToFood.Models.RestaurantListViewModel</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubRestaurantListViewModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:OdeToFood.Models.Fakes.StubRestaurantListViewModel.InitializeStub">
+            <summary>Initializes a new instance of type StubRestaurantListViewModel</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRestaurantListViewModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRestaurantListViewModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:OdeToFood.Models.Fakes.StubRestaurantListViewModel.InstanceObserver">
             <summary>Gets or sets the instance observer.</summary>
         </member>
         <member name="T:OdeToFood.Models.Fakes.StubRestaurantReview">

@@ -12,12 +12,12 @@ namespace OdeToFood.Controllers
         //
         // GET: /Reviews/
 
-        public ActionResult Index()
-        {
-            var model = _reviews.OrderBy(it => it.Rating);
-            return View(model);
+        //public ActionResult Index()
+        //{
+        //    var model = _reviews.OrderBy(it => it.Rating);
+        //    return View(model);
            
-        }
+        //}
 
         //
         // GET: /Reviews/Details/5
@@ -56,27 +56,27 @@ namespace OdeToFood.Controllers
         //
         // GET: /Reviews/Edit/5
 
-        public ActionResult Edit(int id)
-        {
-            var review = _reviews.Single(it => it.Id == id);
-            return View(review);
-        }
+        //public ActionResult Edit(int id)
+        //{
+        //    var review = _reviews.Single(it => it.Id == id);
+        //    return View(review);
+        //}
 
-        //
-        // POST: /Reviews/Edit/5
+        ////
+        //// POST: /Reviews/Edit/5
 
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            var review = _reviews.Single(it => it.Id == id);
-            if (TryUpdateModel(review))
-            {
-                //save into db
-                return RedirectToAction("Index");
-            }
-            return View(review);
+        //[HttpPost]
+        //public ActionResult Edit(int id, FormCollection collection)
+        //{
+        //    var review = _reviews.Single(it => it.Id == id);
+        //    if (TryUpdateModel(review))
+        //    {
+        //        //save into db
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View(review);
 
-        }
+        //}
 
         //
         // GET: /Reviews/Delete/5
@@ -105,38 +105,38 @@ namespace OdeToFood.Controllers
         //    }
         //}
 
-        private static List<RestaurantReview> _reviews = new List<RestaurantReview>
-        {
-            new RestaurantReview
-            {
-                Id = 1,
-                Name = "Buenavista",
-                City = "Iasi",
-                Country = "Romania",
-                Rating = 7,
-            },
-            new RestaurantReview
-            {
-                Id = 2,
-                Name = "Toujours",
-                City = "Iasi",
-                Country = "Usa",
-                Rating = 10,
-            },
-            new RestaurantReview
-            {
-                Id = 3,
-                Name = "McDonalds",
-                City = "Iasi",
-                Country = "France",
-                Rating = 9,
-            }
-        };
-        [ChildActionOnly]
-        public ActionResult BestReview()
-        {
-            var bestReview = _reviews.OrderByDescending(it=>it.Rating);
-            return PartialView("_Review", bestReview.First());
-        }
+        //private static List<RestaurantReview> _reviews = new List<RestaurantReview>
+       // {
+            //new RestaurantReview
+            //{
+            //    Id = 1,
+            //    Name = "Buenavista",
+            //    City = "Iasi",
+            //    Country = "Romania",
+            //    Rating = 7,
+            //},
+            //new RestaurantReview
+            //{
+            //    Id = 2,
+            //    Name = "Toujours",
+            //    City = "Iasi",
+            //    Country = "USA",
+            //    Rating = 10,
+            //},
+            //new RestaurantReview
+            //{
+            //    Id = 3,
+            //    Name = "McDonalds",
+            //    City = "Iasi",
+            //    Country = "France",
+            //    Rating = 9,
+            //}
+        //};
+        //[ChildActionOnly]
+        //public ActionResult BestReview()
+        //{
+        //    var bestReview = _reviews.OrderByDescending(it=>it.Rating);
+        //    return PartialView("_Review", bestReview.First());
+        //}
     }
 }
