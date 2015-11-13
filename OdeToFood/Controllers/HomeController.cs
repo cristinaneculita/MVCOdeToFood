@@ -4,23 +4,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
 
 namespace OdeToFood.Controllers
 {
     public class HomeController : Controller
     {
         OdeToFoodDb _db = new OdeToFoodDb();
-        public ActionResult Index(string searchTerm = null)
+        public ActionResult Index(string searchTerm = null, int page=1)
         {
             var model = _db.Restaurants
                 .OrderByDescending(it => it.Reviews.Average(review => review.Rating))
-                .Where (r=> searchTerm==null || r.Name.StartsWith(searchTerm))
+                .Where(r => searchTerm == null || r.Name.StartsWith(searchTerm))
+
                 .Select(rest => new RestaurantListViewModel
+                {
+                    Id = rest.Id,
+                    Name = rest.Name,
+                    City = rest.City,
+                    Country = rest.Country,
+                    CountOfReviews = rest.Reviews.Count()
+                }).ToPagedList(page, 10);
+
+            if (Request.IsAjaxRequest())
             {
-                Id = rest.Id, Name = rest.Name, City = rest.City, Country = rest.Country, CountOfReviews = rest.Reviews.Count()
-            }).ToList();
-
-
+                return PartialView("_Restaurant", model);
+            }
             return View(model);
         }
 

@@ -1,3 +1,5 @@
+using OdeToFood.Models;
+
 namespace OdeToFood.Migrations
 {
     using System;
@@ -14,7 +16,9 @@ namespace OdeToFood.Migrations
 
         protected override void Seed(OdeToFood.Models.OdeToFoodDb context)
         {
-            
+            for (var i = 0; i < 1000; i++)
+                context.Restaurants.AddOrUpdate(r => r.Name,
+                    new Restaurant {Name = i.ToString(), City = "City No. " + i, Country = "Romania"});
         }
     }
 }

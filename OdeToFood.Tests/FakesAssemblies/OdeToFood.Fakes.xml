@@ -253,8 +253,8 @@
         <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.DisposeBoolean">
             <summary>Sets the shim of HomeController.Dispose(Boolean disposing)</summary>
         </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.IndexString">
-            <summary>Sets the shim of HomeController.Index(String searchTerm)</summary>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.IndexStringInt32">
+            <summary>Sets the shim of HomeController.Index(String searchTerm, Int32 page)</summary>
         </member>
         <member name="T:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances">
             <summary>Define shims for all instances members</summary>
@@ -268,8 +268,8 @@
         <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances.DisposeBoolean">
             <summary>Sets the shim of HomeController.Dispose(Boolean disposing)</summary>
         </member>
-        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances.IndexString">
-            <summary>Sets the shim of HomeController.Index(String searchTerm)</summary>
+        <member name="P:OdeToFood.Controllers.Fakes.ShimHomeController.AllInstances.IndexStringInt32">
+            <summary>Sets the shim of HomeController.Index(String searchTerm, Int32 page)</summary>
         </member>
         <member name="T:OdeToFood.Controllers.Fakes.ShimRestaurantController">
             <summary>Shim type of OdeToFood.Controllers.RestaurantController</summary>
