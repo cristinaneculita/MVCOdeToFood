@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -9,134 +10,64 @@ namespace OdeToFood.Controllers
 {
     public class ReviewsController : Controller
     {
-        //
-        // GET: /Reviews/
 
-        //public ActionResult Index()
-        //{
-        //    var model = _reviews.OrderBy(it => it.Rating);
-        //    return View(model);
-           
-        //}
+        private OdeToFoodDb _db = new OdeToFoodDb();
 
-        //
-        // GET: /Reviews/Details/5
+        public ActionResult Index([Bind(Prefix="id")]int restaurantId)
+        {
+            var restaurant = _db.Restaurants.Find(restaurantId);
+            if (restaurant != null)
+            {
+                return View(restaurant);
+            }
+            return HttpNotFound();
 
-        //public ActionResult Details(int id)
-        //{
-        //    return View();
-        //}
+        }
 
-        ////
-        //// GET: /Reviews/Create
 
-        //public ActionResult Create()
-        //{
-        //    return View();
-        //}
+        protected override void Dispose(bool disposing)
+        {
+            _db.Dispose();
+            base.Dispose(disposing);
+        }
 
-        ////
-        //// POST: /Reviews/Create
+        [HttpGet]
+        public ActionResult Create(int restaurantid)
+        {
+            return View();
+        }
 
-        //[HttpPost]
-        //public ActionResult Create(FormCollection collection)
-        //{
-        //    try
-        //    {
-        //        // TODO: Add insert logic here
 
-        //        return RedirectToAction("Index");
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
+        [HttpPost]
+        public ActionResult Create(RestaurantReview review)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Reviews.Add(review);
+                _db.SaveChanges();
+                return RedirectToAction("Index", new {id = review.RestaurantId});
+            }
+            return View(review);
+        }
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
 
-        //
-        // GET: /Reviews/Edit/5
+            var model = _db.Reviews.Find(id);
+            return View(model);
+        }
 
-        //public ActionResult Edit(int id)
-        //{
-        //    var review = _reviews.Single(it => it.Id == id);
-        //    return View(review);
-        //}
+        [HttpPost]
+        public ActionResult Edit(RestaurantReview review)
+        {
 
-        ////
-        //// POST: /Reviews/Edit/5
-
-        //[HttpPost]
-        //public ActionResult Edit(int id, FormCollection collection)
-        //{
-        //    var review = _reviews.Single(it => it.Id == id);
-        //    if (TryUpdateModel(review))
-        //    {
-        //        //save into db
-        //        return RedirectToAction("Index");
-        //    }
-        //    return View(review);
-
-        //}
-
-        //
-        // GET: /Reviews/Delete/5
-
-        //public ActionResult Delete(int id)
-        //{
-        //    var review = _reviews.Single(it => it.Id == id);
-        //    return View(review);
-        //}
-
-        ////
-        //// POST: /Reviews/Delete/5
-
-        //[HttpPost]
-        //public ActionResult Delete(int id, FormCollection collection)
-        //{
-        //    try
-        //    {
-        //        // TODO: Add delete logic here
-
-        //        return RedirectToAction("Index");
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
-
-        //private static List<RestaurantReview> _reviews = new List<RestaurantReview>
-       // {
-            //new RestaurantReview
-            //{
-            //    Id = 1,
-            //    Name = "Buenavista",
-            //    City = "Iasi",
-            //    Country = "Romania",
-            //    Rating = 7,
-            //},
-            //new RestaurantReview
-            //{
-            //    Id = 2,
-            //    Name = "Toujours",
-            //    City = "Iasi",
-            //    Country = "USA",
-            //    Rating = 10,
-            //},
-            //new RestaurantReview
-            //{
-            //    Id = 3,
-            //    Name = "McDonalds",
-            //    City = "Iasi",
-            //    Country = "France",
-            //    Rating = 9,
-            //}
-        //};
-        //[ChildActionOnly]
-        //public ActionResult BestReview()
-        //{
-        //    var bestReview = _reviews.OrderByDescending(it=>it.Rating);
-        //    return PartialView("_Review", bestReview.First());
-        //}
+            if (ModelState.IsValid)
+            {
+                _db.Entry(review).State = EntityState.Modified;
+                _db.SaveChanges();
+                return RedirectToAction("Index", new { id = review.RestaurantId });
+            }
+            return View(review);
+        }
     }
 }
